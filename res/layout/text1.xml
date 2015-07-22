@@ -1,0 +1,45 @@
+<com.example.scroll.ScrollLinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF" >
+<RelativeLayout 
+     android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="QQ会话"
+        android:textColor="#323232" 
+        android:background="@drawable/flag_01"
+        android:gravity="center"
+        android:id="@+id/name"
+        />
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Welcome    gdf   dfgd   "
+        android:textColor="#323232" 
+        android:background="@drawable/flag_01"
+        android:gravity="center"
+        android:layout_below="@+id/name"
+        android:visibility="gone"
+        />
+</RelativeLayout>
+   
+    
+
+    <Button 
+        
+        style="@style/text_flag_01"
+    android:text="置顶"/>
+<Button 
+android:layout_width="60dp"
+       android:layout_height="60dp"
+        android:background="#00ff00"
+        android:onClick="delete"
+    android:text="删除"/>
+</com.example.scroll.ScrollLinearLayout>
